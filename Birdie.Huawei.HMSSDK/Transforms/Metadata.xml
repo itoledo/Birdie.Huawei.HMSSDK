@@ -1,0 +1,105 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr path="/api/package[@name='com.huawei.hms.core.aidl']/interface[@name='d']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.core.aidl']/class[@name='b']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.core.aidl']/interface[@name='c']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.core.aidl']/class[@name='c.a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.transport']/interface[@name='DatagramTransport.a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.common.internal']/class[@name='a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.hianalytics']/class[@name='a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.updatesdk.a.b.d.a']/class[@name='b']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.updatesdk.service.b']/interface[@name='b']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']/interface[@name='b']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.updatesdk.a.b.c']/class[@name='b']" name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.huawei.updatesdk.a.b.c']/class[@name='b']" name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.huawei.hms.core.aidl']/class[@name='b']/field[@name='b']" name="managedName">xx</attr>
+  <attr path="/api/package[@name='com.huawei.hms.utils']/class[@name='IOUtils']/method[@name='closeQuietly' and count(parameter)=1 and parameter[1][@type='java.io.OutputStream']]" name="managedName">CloseQuietlyOutputStream</attr>
+
+  <!--<remove-node path="/api/package[@name='com.huawei.hms.core.aidl']/interface[@name='d']" />
+  <remove-node path="/api/package[@name='com.huawei.hms.core.aidl']/class[@name='b']" />
+  <remove-node path="/api/package[@name='com.huawei.hms.core.aidl']/interface[@name='c']" />
+  <remove-node path="/api/package[@name='com.huawei.hms.core.aidl']/class[@name='c.a']" />-->
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.hms']/class[@name='ab']" />
+  <remove-node path="/api/package[@name='com.huawei.updatesdk.a.a.a']" />
+  <remove-node path="/api/package[@name='com.huawei.updatesdk.a.a.b.a.a']" />
+  <remove-node path="/api/package[@name='com.huawei.updatesdk.a.a.c']" />
+  <!--<remove-node path="/api/package[@name='com.huawei.hms.common.internal']" />-->
+  
+  <attr path="/api/package[@name='com.huawei.hms.common.api']/class[@name='Response']/field[@name='result']" name="managedName">InternalResult</attr>
+  <attr path="/api/package[@name='com.huawei.hms.adapter']/class[@name='CoreBaseResponse']/field[@name='intent']" name="managedName">InternalIntent</attr>
+  <attr path="/api/package[@name='com.huawei.hms.adapter']/class[@name='CoreBaseResponse']/field[@name='pendingIntent']" name="managedName">InternalPendingIntent</attr>
+  <attr path="/api/package[@name='com.huawei.hms.api']/class[@name='HuaweiApiAvailability']/field[@name='SERVICES_VERSION_CODE']" name="managedName">InternalServicesVersionCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.common.internal']/class[@name='BaseHmsClient']/field[@name='sessionId']" name="managedName">InternalSessionId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.core.aidl']/class[@name='b']/field[@name='a']" name="managedName">InternalA</attr>
+  <attr path="/api/package[@name='com.huawei.hms.core.aidl']/class[@name='ResponseHeader']/field[@name='statusCode']" name="managedName">InternalStatusCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.core']/class[@name='DisconnectInfo']/field[@name='apiNameList']" name="managedName">InternalApiNameList</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.core']/class[@name='DisconnectInfo']/field[@name='scopeList']" name="managedName">InternalScopeList</attr>
+  
+  <attr path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolder']/method[@name='finalize' and count(parameter)=0]" name="managedName">Finalizer</attr>
+  <attr path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolder']/method[@name='finalize' and count(parameter)=0]" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DBInnerIter']/method[@name='hasNext' and count(parameter)=0]" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolderCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolderCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api']/class[@name='ResolvePendingResult']/method[@name='onComplete' and count(parameter)=1 and parameter[1][@type='T']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.huawei.hms.common.internal']/class[@name='DialogRedirectImpl']/method[@name='redirect' and count(parameter)=0]" name="visibility">protected</attr>
+  
+  <remove-node path="/api/package[@name='com.huawei.hms.support.api.client']/class[@name='ResolvingResultCallbacks']/method[@name='onSuccess' and count(parameter)=1 and parameter[1][@type='R']]" />
+  <!--<attr path="/api/package[@name='com.huawei.hms.support.api.client']/class[@name='ResolvingResultCallbacks']/method[@name='onSuccess' and count(parameter)=1 and parameter[1][@type='R']]" name="visibility">protected</attr>-->
+  <!--<attr path="/api/package[@name='com.huawei.hianalytics.ab.ab']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.ab']/class[@name='bc']/method[@name='ab']" name="managedName">xx</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.ab']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.bc']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.ab']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.bc']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.de']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.ef']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.fg']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.gh']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.hi']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.ij']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.ik.ab']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.ik.bc']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.ik.cd']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.kl']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.cd.ab']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.cd.bc']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.de']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.ef']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.fg']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.gh']" name="obfuscated">false</attr>-->
+  <!--<attr path="/api/package[@name='com.huawei.hianalytics.ab.ab']/class[@name='ab']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.ab']/class[@name='bc']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hianalytics.ab.ab']/class[@name='cd']" name="obfuscated">false</attr>-->
+
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.ab']" />
+  <!--<remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.ab']/class[@name='bc']/method[@name='ab']" name="managedName">xx</attr>-->
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.ab']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.bc']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.ab']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.bc']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.de']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.ef']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.fg']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.gh']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.hi']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.ij']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.ik.ab']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.ik.bc']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.ik.cd']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.kl']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.cd.ab']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.cd.bc']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.de']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.ef']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.fg']" />
+  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.gh']" />
+</metadata>
