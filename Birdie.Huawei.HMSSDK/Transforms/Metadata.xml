@@ -7,12 +7,16 @@
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
 
+  <!--<attr path="/api/package[@name='com.huawei.hms.core.aidl']/interface[@name='d']" name="managedName">IAidlInterface</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.client']/interface[@name='AidlApiClient']/method[@name='getService']" name="managedReturn">com.huawei.hms.core.aidl.IAidlInterface</attr>-->
+  
   <attr path="/api/package[@name='com.huawei.hms.core.aidl']/interface[@name='d']" name="obfuscated">false</attr>
   <attr path="/api/package[@name='com.huawei.hms.core.aidl']/class[@name='b']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.core.aidl']/class[@name='b']/field[@name='b']" name="managedName">InternalB</attr>
   <attr path="/api/package[@name='com.huawei.hms.core.aidl']/interface[@name='c']" name="obfuscated">false</attr>
   <attr path="/api/package[@name='com.huawei.hms.core.aidl']/class[@name='c.a']" name="obfuscated">false</attr>
   <attr path="/api/package[@name='com.huawei.hms.support.api.transport']/interface[@name='DatagramTransport.a']" name="obfuscated">false</attr>
-  <attr path="/api/package[@name='com.huawei.hms.common.internal']/class[@name='a']" name="obfuscated">false</attr>
+  <!--<attr path="/api/package[@name='com.huawei.hms.common.internal']/class[@name='a']" name="obfuscated">false</attr>-->
   <attr path="/api/package[@name='com.huawei.hms.support.hianalytics']/class[@name='a']" name="obfuscated">false</attr>
   <attr path="/api/package[@name='com.huawei.updatesdk.a.b.d.a']/class[@name='b']" name="obfuscated">false</attr>
   <attr path="/api/package[@name='com.huawei.updatesdk.service.b']/interface[@name='b']" name="obfuscated">false</attr>
