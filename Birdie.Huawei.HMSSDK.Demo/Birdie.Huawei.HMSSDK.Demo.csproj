@@ -111,9 +111,9 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Birdie.Huawei.HMSSDK\Birdie.Huawei.HMSSDK.csproj">
-      <Project>{13038600-b335-4957-ad64-4856d74011e5}</Project>
-      <Name>Birdie.Huawei.HMSSDK</Name>
+    <ProjectReference Include="..\Birdie.Huawei.HMSSDK.ID\Birdie.Huawei.HMSSDK.ID.csproj">
+      <Project>{f1912e53-9462-4888-bf6c-ff63780f2187}</Project>
+      <Name>Birdie.Huawei.HMSSDK.ID</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

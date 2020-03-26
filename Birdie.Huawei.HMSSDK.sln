@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Birdie.Huawei.HMSSDK", "Bir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Birdie.Huawei.HMSSDK.Demo", "Birdie.Huawei.HMSSDK.Demo\Birdie.Huawei.HMSSDK.Demo.csproj", "{FA5CC3D9-44D5-419F-96F3-F6EAE366E0D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Birdie.Huawei.HMSSDK.ID", "Birdie.Huawei.HMSSDK.ID\Birdie.Huawei.HMSSDK.ID.csproj", "{F1912E53-9462-4888-BF6C-FF63780F2187}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{FA5CC3D9-44D5-419F-96F3-F6EAE366E0D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA5CC3D9-44D5-419F-96F3-F6EAE366E0D0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FA5CC3D9-44D5-419F-96F3-F6EAE366E0D0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F1912E53-9462-4888-BF6C-FF63780F2187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1912E53-9462-4888-BF6C-FF63780F2187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1912E53-9462-4888-BF6C-FF63780F2187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1912E53-9462-4888-BF6C-FF63780F2187}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
