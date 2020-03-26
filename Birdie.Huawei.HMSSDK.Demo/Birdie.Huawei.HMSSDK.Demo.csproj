@@ -129,7 +129,7 @@
       <Name>Birdie.Huawei.HMSSDK.ID</Name>
     </ProjectReference>
     <ProjectReference Include="..\Birdie.Huawei.HMSSDK\Birdie.Huawei.HMSSDK.csproj">
-      <Project>{13038600-B335-4957-AD64-4856D74011E5}</Project>
+      <Project>{13038600-b335-4957-ad64-4856d74011e5}</Project>
       <Name>Birdie.Huawei.HMSSDK</Name>
     </ProjectReference>
   </ItemGroup>

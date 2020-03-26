@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Additions\DataHolder.cs" />
+    <Compile Include="Additions\Task.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -62,7 +63,7 @@
     <EmbeddedJar Include="Jars\hmssdk-base-4.0.1.300.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\tasks.jar" />
+    <EmbeddedJar Include="Jars\tasks.jar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedJar Include="Jars\agconnect-core.jar" />
