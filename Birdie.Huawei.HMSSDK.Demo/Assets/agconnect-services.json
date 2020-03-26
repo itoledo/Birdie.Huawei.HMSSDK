@@ -1,0 +1,12 @@
+{
+	"client":{
+		"cp_id":"890056100000000152",
+		"product_id":"9105385871708599462",
+		"client_id":"326942303027463296",
+		"client_secret":"55F01D850D9C2555CB29AFAABC9C30F45683A4A5973D3D37EF5618CB3ADCABB5",
+		"app_id":"101937371",
+		"package_name":"cl.birdie.huawei.hmssdk.demo",
+		"api_key":"CV6kfn+OhG7GRtD70c2H0vsFC4AePHDpGTLGqib/qaO2eTKa9WiRT1SAIiwnFzVwfmklEy6BIegOrputG6evqNJBkOaZ"
+	},
+	"configuration_version":"1.0"
+}

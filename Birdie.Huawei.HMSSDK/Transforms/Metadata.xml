@@ -106,4 +106,6 @@
   <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.ef']" />
   <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.fg']" />
   <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.gh']" />
+
+  <attr path="/api/package[@name='com.huawei.agconnect.core']/class[@name='Service']" name="managedName">AGConnectService</attr>
 </metadata>

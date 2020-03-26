@@ -26,6 +26,7 @@
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
+    <AndroidManifestMerger>manifestmerger.jar</AndroidManifestMerger>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -38,6 +39,11 @@
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
     <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <AndroidKeyStore>true</AndroidKeyStore>
+    <AndroidSigningKeyStore>C:\dev\Birdie.Huawei.HMSSDK\Birdie.Huawei.HMSSDK.Demo\hmssdk.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>birdie</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>hmssdk</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>birdie</AndroidSigningKeyPass>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -62,10 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MainApplication.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\hianalytics_njjn" />
+    <AndroidAsset Include="Assets\updatesdkcas.bks" />
+    <AndroidAsset Include="Assets\agconnect-services.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
@@ -102,6 +112,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Resources\drawable-xhdpi-v4\" />
+    <Folder Include="Resources\drawable-xxhdpi-v4\" />
+    <Folder Include="Resources\drawable-xxxhdpi-v4\" />
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
@@ -114,6 +127,10 @@
     <ProjectReference Include="..\Birdie.Huawei.HMSSDK.ID\Birdie.Huawei.HMSSDK.ID.csproj">
       <Project>{f1912e53-9462-4888-bf6c-ff63780f2187}</Project>
       <Name>Birdie.Huawei.HMSSDK.ID</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Birdie.Huawei.HMSSDK\Birdie.Huawei.HMSSDK.csproj">
+      <Project>{13038600-B335-4957-AD64-4856D74011E5}</Project>
+      <Name>Birdie.Huawei.HMSSDK</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
