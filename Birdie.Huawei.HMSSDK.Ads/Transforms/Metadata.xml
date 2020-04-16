@@ -1,0 +1,256 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <!--<attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='ku']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='gc']" name="obfuscated">false</attr>-->
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.annotations']/interface[@name='b']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/interface[@name='d']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.media']/class[@name='b']" name="obfuscated">false</attr>
+  <attr path="/api/*/class[string-length(@name) &lt;= 3]" name="obfuscated">false</attr>
+  <attr path="/api/*/interface[string-length(@name) &lt;= 3]" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='bt.a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='ee.a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='gx.b']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='jo.a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='jq.a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='ep.a']" name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.views']/class[@name='BaseVideoView.h']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.views']/interface[@name='BaseVideoView.f']" name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.views']/class[@name='BaseVideoView']/field[@name='B']" name="managedName">InternalB</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.views']/class[@name='BaseVideoView']/field[@name='C']" name="managedName">InternalC</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.views']/class[@name='BaseVideoView']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.views']/class[@name='BaseVideoView']/field[@name='D']" name="managedName">InternalD</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.views']/class[@name='BaseVideoView']/field[@name='F']" name="managedName">InternalF</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.views']/class[@name='BaseVideoView']/field[@name='I']" name="managedName">InternalI</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.views']/class[@name='BaseVideoView']/field[@name='L']" name="managedName">InternalL</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.views']/class[@name='BaseVideoView']/field[@name='S']" name="managedName">InternalS</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.views']/class[@name='BaseVideoView']/field[@name='V']" name="managedName">InternalV</attr>
+
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='ck']/field[@name='b']" name="managedName">CK_B</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='ck']/field[@name='c']" name="managedName">CK_C</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='ck']/field[@name='d']" name="managedName">CK_D</attr>
+
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='A']" name="managedName">CO_A</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='B']" name="managedName">CO_B</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='C']" name="managedName">CO_C</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='D']" name="managedName">CO_D</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='E']" name="managedName">CO_E</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='F']" name="managedName">CO_F</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='G']" name="managedName">CO_G</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='H']" name="managedName">CO_H</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='I']" name="managedName">CO_I</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='J']" name="managedName">CO_J</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='K']" name="managedName">CO_K</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='L']" name="managedName">CO_L</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='M']" name="managedName">CO_M</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='N']" name="managedName">CO_N</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='O']" name="managedName">CO_O</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='P']" name="managedName">CO_P</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='Q']" name="managedName">CO_Q</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='R']" name="managedName">CO_R</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='S']" name="managedName">CO_S</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='T']" name="managedName">CO_T</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='U']" name="managedName">CO_U</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='V']" name="managedName">CO_V</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='W']" name="managedName">CO_W</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='X']" name="managedName">CO_X</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='Y']" name="managedName">CO_Y</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='co']/field[@name='Z']" name="managedName">CO_Z</attr>
+
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cp']/field[@name='B']" name="managedName">CP_B</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cp']/field[@name='C']" name="managedName">CP_C</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cp']/field[@name='D']" name="managedName">CP_D</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cp']/field[@name='F']" name="managedName">CP_F</attr>
+
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='A']" name="managedName">CU_A</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='B']" name="managedName">CU_B</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='C']" name="managedName">CU_C</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='D']" name="managedName">CU_D</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='E']" name="managedName">CU_E</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='F']" name="managedName">CU_F</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='G']" name="managedName">CU_G</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='H']" name="managedName">CU_H</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='I']" name="managedName">CU_I</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='J']" name="managedName">CU_J</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='K']" name="managedName">CU_K</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='L']" name="managedName">CU_L</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='M']" name="managedName">CU_M</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='N']" name="managedName">CU_N</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='O']" name="managedName">CU_O</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='P']" name="managedName">CU_P</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='S']" name="managedName">CU_S</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='V']" name="managedName">CU_V</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='cu']/field[@name='Z']" name="managedName">CU_Z</attr>
+
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='dc']/field[@name='B']" name="managedName">DC_B</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='dc']/field[@name='C']" name="managedName">DC_C</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='dc']/field[@name='D']" name="managedName">DC_D</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='dc']/field[@name='F']" name="managedName">DC_F</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='dc']/field[@name='I']" name="managedName">DC_I</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/interface[@name='dc']/field[@name='L']" name="managedName">DC_L</attr>
+
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='ee']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='ej']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='ej']/field[@name='V']" name="managedName">InternalV</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='ep']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='ep']/field[@name='V']" name="managedName">InternalV</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='ew']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='ew']/field[@name='V']" name="managedName">InternalV</attr>
+
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='fb']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='fh']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gf']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gh']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gk']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gv']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gw']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='hb']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='hc']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='hd']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='hf']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='hh']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='hk']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='hl']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='hm']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='hp']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='hq']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='hr']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='jd']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='jr']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='kn']/field[@name='Code']" name="managedName">InternalCode</attr>
+
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gh']/field[@name='I']" name="managedName">InternalI</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gk']/field[@name='I']" name="managedName">InternalI</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gv']/field[@name='I']" name="managedName">InternalI</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='ji']/field[@name='I']" name="managedName">InternalI</attr>
+
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gh']/field[@name='V']" name="managedName">InternalV</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gk']/field[@name='V']" name="managedName">InternalV</attr>
+
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gv']/field[@name='B']" name="managedName">InternalB</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gv']/field[@name='C']" name="managedName">InternalC</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gv']/field[@name='D']" name="managedName">InternalD</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gv']/field[@name='F']" name="managedName">InternalF</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gv']/field[@name='L']" name="managedName">InternalL</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.activity']/class[@name='PPSLauncherActivity']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.download']/class[@name='a']/field[@name='Code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.download']/class[@name='a']/field[@name='I']" name="managedName">InternalI</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.download']/class[@name='a']/field[@name='V']" name="managedName">InternalV</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='c']/field[@name='Code']" name="managedName">InternalCode</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.listeners']/interface[@name='IAppDownloadManager']/field[@name='I']" name="managedName">InternalI</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.listeners']/interface[@name='IAppDownloadManager']/field[@name='V']" name="managedName">InternalV</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.media']/class[@name='e']/field[@name='Code']" name="managedName">InternalCode</attr>
+
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='en']/method[@name='b']" name="managedName">ObtainB</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='en']/method[@name='c']" name="managedName">ObtainC</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='en']/method[@name='d']" name="managedName">ObtainD</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='en']/method[@name='f']" name="managedName">ObtainF</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='en']/method[@name='i']" name="managedName">ObtainI</attr>
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='en']/method[@name='l']" name="managedName">ObtainL</attr>
+
+  <attr path="/api/package[@name='com.huawei.hms.ads']/class[@name='gs']/method[@name='b']" name="managedName">ObtainB</attr>
+  
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.inner']/class[@name='AdEventReport']/method[@name='b']" name="managedName">ObtainB</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.inner']/class[@name='AdEventReport']/method[@name='c']" name="managedName">ObtainC</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.inner']/class[@name='AdEventReport']/method[@name='d']" name="managedName">ObtainD</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.inner']/class[@name='AdEventReport']/method[@name='f']" name="managedName">ObtainF</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.inner']/class[@name='AdEventReport']/method[@name='i']" name="managedName">ObtainI</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.inner']/class[@name='AdEventReport']/method[@name='l']" name="managedName">ObtainL</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.inner']/class[@name='ApiStatisticsReq']/method[@name='b']" name="managedName">ObtainB</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='ApkInfo']/method[@name='b']" name="managedName">ObtainB</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='ApkInfo']/method[@name='c']" name="managedName">ObtainC</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='ApkInfo']/method[@name='d']" name="managedName">ObtainD</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='ApkInfo']/method[@name='f']" name="managedName">ObtainF</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='ApkInfo']/method[@name='i']" name="managedName">ObtainI</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='ApkInfo']/method[@name='l']" name="managedName">ObtainL</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.server']/class[@name='AppConfigRsp']/method[@name='b']" name="managedName">ObtainB</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.server']/class[@name='AppConfigRsp']/method[@name='c']" name="managedName">ObtainC</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.server']/class[@name='AppConfigRsp']/method[@name='d']" name="managedName">ObtainD</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.server']/class[@name='AppConfigRsp']/method[@name='f']" name="managedName">ObtainF</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='MetaData']/method[@name='b']" name="managedName">ObtainB</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='MetaData']/method[@name='c']" name="managedName">ObtainC</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='MetaData']/method[@name='d']" name="managedName">ObtainD</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='MetaData']/method[@name='f']" name="managedName">ObtainF</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='VideoInfo']/method[@name='b']" name="managedName">ObtainB</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='VideoInfo']/method[@name='c']" name="managedName">ObtainC</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.beans.metadata']/class[@name='VideoInfo']/method[@name='d']" name="managedName">ObtainD</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='a']" name="managedName">ObtainA</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='b']" name="managedName">ObtainB</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='c']" name="managedName">ObtainC</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='d']" name="managedName">ObtainD</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='e']" name="managedName">ObtainE</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='f']" name="managedName">ObtainF</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='g']" name="managedName">ObtainG</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='h']" name="managedName">ObtainH</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='i']" name="managedName">ObtainI</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='j']" name="managedName">ObtainJ</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='k']" name="managedName">ObtainK</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='l']" name="managedName">ObtainL</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='m']" name="managedName">ObtainM</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='n']" name="managedName">ObtainN</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='o']" name="managedName">ObtainO</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='p']" name="managedName">ObtainP</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='s']" name="managedName">ObtainS</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='v']" name="managedName">ObtainV</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AdContentData']/method[@name='z']" name="managedName">ObtainZ</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.media']/class[@name='b']/method[@name='b']" name="managedName">ObtainB</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.media']/class[@name='b']/method[@name='c']" name="managedName">ObtainC</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.media']/class[@name='b']/method[@name='d']" name="managedName">ObtainD</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='r']/method[@name='b']" name="managedName">ObtainB</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='r']/method[@name='c']" name="managedName">ObtainC</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='r']/method[@name='d']" name="managedName">ObtainD</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='r']/method[@name='f']" name="managedName">ObtainF</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AppInfo']/method[@name='b']" name="managedName">ObtainB</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AppInfo']/method[@name='c']" name="managedName">ObtainC</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AppInfo']/method[@name='d']" name="managedName">ObtainD</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AppInfo']/method[@name='f']" name="managedName">ObtainF</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='AppInfo']/method[@name='i']" name="managedName">ObtainI</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.download.app']/class[@name='b']/field[@name='b']" name="managedName">InternalB</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.download.app']/class[@name='i']/field[@name='I']" name="managedName">InternalI</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.download']/interface[@name='c']/field[@name='C']" name="managedName">InternalC</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='c']/method[@name='d']" name="managedName">ObtainD</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.listeners']/interface[@name='AppDownloadListener']/method[@name='Code' and count(parameter)=2 and parameter[1][@type='com.huawei.openalliance.ad.download.app.i'] and parameter[2][@type='com.huawei.openalliance.ad.inter.data.AppInfo']]" name="managedName">DownloadI</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.listeners']/interface[@name='AppDownloadListener']/method[@name='Code' and count(parameter)=2 and parameter[1][@type='com.huawei.openalliance.ad.inter.data.AppInfo'] and parameter[2][@type='int']]" name="managedName">DownloadAppInfo</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.listeners']/interface[@name='AppDownloadListener']/method[@name='Code' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" name="managedName">DownloadString</attr>
+
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/interface[@name='e']/method[@name='B' and count(parameter)=0]" name="managedName">IEB</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/interface[@name='e']/method[@name='Code' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" name="managedName">CodeString</attr>
+  <attr path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/interface[@name='e']/method[@name='V' and count(parameter)=0]" name="managedName">IEV</attr>
+  <!--<attr path="/api/package[@name='com.huawei.openalliance.ad.inter']/class[@name='HiAd']/method[@name='Code' and count(parameter)=1 and parameter[1][@type='android.content.BroadcastReceiver']]" name="managedName">CodeReceiver</attr>-->
+  <!--<attr path="/api/package[@name='com.huawei.openalliance.ad.download.app']/enumeration[@name='i']" name="obfuscated">false</attr>-->
+
+  <!--<remove-node path="/api/package['@name='com.huawei.openalliance']" />-->
+
+  <!--<add-node path="/api/package[@name='com.huawei.hms.ads']/class[@name='bt']">
+    <class abstract="false" deprecated="not deprecated" final="false" name="AuthListener.AuthRequest" static="true" visibility="public" extends="java.lang.Object">
+      <constructor deprecated="not deprecated" final="false" name="AuthListener.AuthRequest" static="false" type="org.alljoyn.bus.AuthListener.AuthRequest" visibility="public" />
+      <field name="p0" type="org.alljoyn.bus.AuthListener.Credentials" />
+    </class>
+  </add-node>-->
+               
+</metadata>
