@@ -10,6 +10,8 @@ using Android.Support.V7.App;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using Com.Huawei.Hms.Ads;
+using Com.Huawei.Hms.Ads.Banner;
 using Com.Huawei.Hms.Common;
 using Com.Huawei.Hms.Support.Hwid;
 using Com.Huawei.Hms.Support.Hwid.Request;
@@ -30,6 +32,15 @@ namespace Birdie.Huawei.HMSSDK.Demo
 
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
+
+            HwAds.Init(this);
+
+            BannerView bannerView = FindViewById<BannerView>(Resource.Id.hw_banner_view);
+            // Set the ad slot ID and ad size,"testw6vs28auh3" is a dedicated test ad slot ID.
+            bannerView.AdId = "testw6vs28auh3";
+            bannerView.BannerAdSize = BannerAdSize.BannerSize32050;
+            AdParam adParam = new AdParam.Builder().Build();
+            bannerView.LoadAd(adParam);
 
             FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             fab.Click += FabOnClick;

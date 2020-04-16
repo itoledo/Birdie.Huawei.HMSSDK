@@ -246,6 +246,13 @@
 
   <!--<remove-node path="/api/package['@name='com.huawei.openalliance']" />-->
 
+  <remove-node path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='a']" />
+  <remove-node path="/api/package[@name='com.huawei.openalliance.ad.inter.data']/class[@name='c']" />
+  <remove-node path="/api/package[@name='com.huawei.openalliance.ad.media']/class[@name='b.5']" />
+  <remove-node path="/api/package[@name='com.huawei.hms.ads']/class[@name='et']" />
+  <remove-node path="/api/package[@name='com.huawei.openalliance.ad.download.app']/class[@name='e']" />
+  <remove-node path="/api/package[@name='com.huawei.openalliance.ad.msgnotify']/class[@name='a']" />
+  
   <!--<add-node path="/api/package[@name='com.huawei.hms.ads']/class[@name='bt']">
     <class abstract="false" deprecated="not deprecated" final="false" name="AuthListener.AuthRequest" static="true" visibility="public" extends="java.lang.Object">
       <constructor deprecated="not deprecated" final="false" name="AuthListener.AuthRequest" static="false" type="org.alljoyn.bus.AuthListener.AuthRequest" visibility="public" />

@@ -11,6 +11,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Com.Huawei.Agconnect.Config;
+using Com.Huawei.Hms.Ads;
 
 namespace Birdie.Huawei.HMSSDK.Demo
 {
