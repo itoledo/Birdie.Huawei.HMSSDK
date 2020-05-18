@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Birdie.Huawei.HMSSDK.Ads.Na
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Birdie.Huawei.HMSSDK.Ads.Banner", "Birdie.Huawei.HMSSDK.Ads.Banner\Birdie.Huawei.HMSSDK.Ads.Banner.csproj", "{D23600A6-ABCC-4845-890F-D3EE01FD9CDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Birdie.Huawei.HMSSDK.InAppPurchase", "Birdie.Huawei.HMSSDK.InAppPurchase\Birdie.Huawei.HMSSDK.InAppPurchase.csproj", "{2FED0C7D-CC4B-41BD-A755-FC81AF84D744}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{D23600A6-ABCC-4845-890F-D3EE01FD9CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D23600A6-ABCC-4845-890F-D3EE01FD9CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D23600A6-ABCC-4845-890F-D3EE01FD9CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FED0C7D-CC4B-41BD-A755-FC81AF84D744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FED0C7D-CC4B-41BD-A755-FC81AF84D744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FED0C7D-CC4B-41BD-A755-FC81AF84D744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FED0C7D-CC4B-41BD-A755-FC81AF84D744}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

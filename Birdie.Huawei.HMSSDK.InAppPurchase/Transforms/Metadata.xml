@@ -1,0 +1,123 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay.a']/class[@name='a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='GamePayReq']/field[@name='channelId']" name="managedName">InternalChannelId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='GamePayReq']/field[@name='sdkVersionName']" name="managedName">InternalSdkVersionName</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='GameProductPayReq']/field[@name='channelId']" name="managedName">InternalChannelId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='GameProductPayReq']/field[@name='sdkVersionName']" name="managedName">InternalSdkVersionName</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='HwWalletInfoRequest']/field[@name='merchantId']" name="managedName">InternalMerchantId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='HwWalletInfoRequest']/field[@name='queryFlag']" name="managedName">InternalQueryFlag</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='HwWalletInoResp']/field[@name='result']" name="managedName">InternalResult</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='OrderRequest']/field[@name='merchantId']" name="managedName">InternalMerchantId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='OrderRequest']/field[@name='requestId']" name="managedName">InternalRequestId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='OrderRequest']/field[@name='keyType']" name="managedName">InternalKeyType</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='OrderRequest']/field[@name='time']" name="managedName">InternalTime</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='OrderRequest']/field[@name='sign']" name="managedName">InternalSign</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='OrderResp']/field[@name='returnCode']" name="managedName">InternalReturnCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='OrderResp']/field[@name='returnDesc']" name="managedName">InternalReturnDesc</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='OrderResp']/field[@name='requestId']" name="managedName">InternalRequestId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='OrderResp']/field[@name='orderID']" name="managedName">InternalOrderId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='OrderResp']/field[@name='orderTime']" name="managedName">InternalOrderTime</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='OrderResp']/field[@name='tradeTime']" name="managedName">InternalTradeTime</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='OrderResp']/field[@name='status']" name="managedName">InternalStatus</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='OrderResp']/field[@name='sign']" name="managedName">InternalSign</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PayReq']/field[@name='productName']" name="managedName">InternalProductName</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PayReq']/field[@name='productDesc']" name="managedName">InternalProductDesc</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PayReq']/field[@name='amount']" name="managedName">InternalAmount</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PayReq']/field[@name='currency']" name="managedName">InternalCurrency</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PayReq']/field[@name='country']" name="managedName">InternalCountry</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PayReq']/field[@name='expireTime']" name="managedName">InternalExpireTime</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PayReq']/field[@name='partnerIDs']" name="managedName">InternalPartnerIds</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PayReq']/field[@name='validTime']" name="managedName">InternalValidTime</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PayResp']/field[@name='pendingIntent']" name="managedName">InternalPendingIntent</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetail']/field[@name='productName']" name="managedName">InternalProductName</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetail']/field[@name='productDesc']" name="managedName">InternalProductDesc</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetail']/field[@name='price']" name="managedName">InternalPrice</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetail']/field[@name='currency']" name="managedName">InternalCurrency</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetail']/field[@name='country']" name="managedName">InternalCountry</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetail']/field[@name='productNo']" name="managedName">InternalProductNo</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetail']/field[@name='microsPrice']" name="managedName">InternalMicrosPrice</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetailRequest']/field[@name='merchantId']" name="managedName">InternalMerchantId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetailRequest']/field[@name='applicationID']" name="managedName">InternalApplicationId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetailRequest']/field[@name='requestId']" name="managedName">InternalRequestId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetailRequest']/field[@name='productNos']" name="managedName">InternalProductNos</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetailResp']/field[@name='returnCode']" name="managedName">InternalReturnCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetailResp']/field[@name='errMsg']" name="managedName">InternalErrMsg</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetailResp']/field[@name='requestId']" name="managedName">InternalRequestId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetailResp']/field[@name='productList']" name="managedName">InternalProductList</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductDetailResp']/field[@name='failList']" name="managedName">InternalFailList</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductFailObject']/field[@name='code']" name="managedName">InternalCode</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductFailObject']/field[@name='msg']" name="managedName">InternalMsg</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductFailObject']/field[@name='productNo']" name="managedName">InternalProductNo</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductPayRequest']/field[@name='expireTime']" name="managedName">InternalExpireTime</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductPayRequest']/field[@name='productNo']" name="managedName">InternalProductNo</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='ProductPayRequest']/field[@name='validTime']" name="managedName">InternalValidTime</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PurchaseInfoRequest']/field[@name='appId']" name="managedName">InternalAppId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PurchaseInfoRequest']/field[@name='merchantId']" name="managedName">InternalMerchantId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PurchaseInfoRequest']/field[@name='pageNo']" name="managedName">InternalPageNo</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PurchaseInfoRequest']/field[@name='priceType']" name="managedName">InternalPriceType</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PurchaseInfoRequest']/field[@name='productId']" name="managedName">InternalProductId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PurchaseInfoRequest']/field[@name='sign']" name="managedName">InternalSign</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='PurchaseInfoRequest']/field[@name='ts']" name="managedName">InternalTs</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='WalletIntentResp']/field[@name='pendingIntent']" name="managedName">InternalPendingIntent</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='WithholdRequest']/field[@name='amount']" name="managedName">InternalAmount</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='WithholdRequest']/field[@name='country']" name="managedName">InternalCountry</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='WithholdRequest']/field[@name='currency']" name="managedName">InternalCurrency</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='WithholdRequest']/field[@name='productDesc']" name="managedName">InternalProductDesc</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='WithholdRequest']/field[@name='productName']" name="managedName">InternalProductName</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']/class[@name='WithholdRequest']/field[@name='tradeType']" name="managedName">InternalTradeType</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay.a']/class[@name='a']/field[@name='merchantId']" name="managedName">InternalMerchantId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay.a']/class[@name='a']/field[@name='merchantName']" name="managedName">InternalMerchantName</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay.a']/class[@name='a']/field[@name='applicationID']" name="managedName">InternalApplicationId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay.a']/class[@name='a']/field[@name='requestId']" name="managedName">InternalRequestId</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay.a']/class[@name='a']/field[@name='urlVer']" name="managedName">InternalUrlVer</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay.a']/class[@name='a']/field[@name='sdkChannel']" name="managedName">InternalSdkChannel</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay.a']/class[@name='a']/field[@name='extReserved']" name="managedName">InternalExtReserved</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay.a']/class[@name='a']/field[@name='serviceCatalog']" name="managedName">InternalServiceCatalog</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay.a']/class[@name='a']/field[@name='url']" name="managedName">InternalUrl</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay.a']/class[@name='a']/field[@name='sign']" name="managedName">InternalSign</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay.a']/class[@name='a']/field[@name='reservedInfor']" name="managedName">InternalReservedInfor</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='HwWalletUiIntentReq']/field[@name='type']" name="managedName">InternalType</attr>
+  <attr path="/api/package[@name='com.huawei.hms.iap.entity']/class[@name='InAppPurchaseData']/method[@name='getPurchaseState' and count(parameter)=0]" name="managedName">ObtainPurchaseState</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='GetWalletUiIntentTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.GetWalletUiIntentResult&gt;']]/parameter[1]"
+        name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='GetWalletUiIntentTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.GetWalletUiIntentResult&gt;']]"
+        name="visibility">protected override</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='GetWalletUiIntentTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.GetWalletUiIntentResult&gt;']]"
+        name="final">true</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='HwWalletInfoTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.HwWalletInfoResult&gt;']]/parameter[1]"
+        name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='HwWalletInfoTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.HwWalletInfoResult&gt;']]"
+        name="visibility">protected override</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='HwWalletInfoTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.HwWalletInfoResult&gt;']]"
+        name="final">true</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='OrderTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.OrderResult&gt;']]/parameter[1]"
+        name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='OrderTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.OrderResult&gt;']]"
+        name="visibility">protected override</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='OrderTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.OrderResult&gt;']]"
+        name="final">true</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='PayTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.PayResult&gt;']]/parameter[1]"
+        name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='PayTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.PayResult&gt;']]"
+        name="visibility">protected override</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='PayTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.PayResult&gt;']]"
+        name="final">true</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='ProductDetailTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.ProductDetailResult&gt;']]/parameter[1]"
+        name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='ProductDetailTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.ProductDetailResult&gt;']]"
+        name="visibility">protected override</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='ProductDetailTaskApiCall']/method[@name='doExecute' and count(parameter)=4 and parameter[1][@type='com.huawei.hms.support.api.pay.json.PayHmsClient'] and parameter[2][@type='com.huawei.hms.common.internal.ResponseErrorCode'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.huawei.hmf.tasks.TaskCompletionSource&lt;com.huawei.hms.support.api.pay.ProductDetailResult&gt;']]"
+        name="final">true</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='PayHmsClientBuilder']/method[@name='buildClient' and count(parameter)=4 and parameter[1][@type='android.content.Context'] and parameter[2][@type='com.huawei.hms.common.internal.ClientSettings'] and parameter[3][@type='com.huawei.hms.common.internal.BaseHmsClient.OnConnectionFailedListener'] and parameter[4][@type='com.huawei.hms.common.internal.BaseHmsClient.ConnectionCallbacks']]"
+        name="final">true</attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.pay.json']/class[@name='PayHmsClientBuilder']/method[@name='buildClient' and count(parameter)=4 and parameter[1][@type='android.content.Context'] and parameter[2][@type='com.huawei.hms.common.internal.ClientSettings'] and parameter[3][@type='com.huawei.hms.common.internal.BaseHmsClient.OnConnectionFailedListener'] and parameter[4][@type='com.huawei.hms.common.internal.BaseHmsClient.ConnectionCallbacks']]"
+        name="managedReturn">Java.Lang.Object</attr>
+</metadata>
+
